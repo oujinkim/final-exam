@@ -194,13 +194,11 @@ private double[] mutate(double[] candidates) {
 돌연변이 연산은 후보해의 일부분을 임의로 변형시키는 것으로, 돌연변이가 일어날 확률인 돌연변이율은 0.333..으로 정했다. 돌연변이 연산을 위해 다시 후보해를 이진수문자열화 하였고, 돌연변이 방식은 2번째 인덱스의 원소값이 1이라면 0으로 바꾸어 주는 방식이다. 그리고 후보자들의 값을 본래로 되돌리기위해 10000.0을 나누었다.
 
 다음은 모수 a값의 유전 알고리즘 결과와 엑셀의 a와 손실함수의 그래프이다.
-![](https://user-images.githubusercontent.com/101345032/174309318-77da78c4-4b19-47bc-b667-a6c55a9fed60.PNG)
-![](https://user-images.githubusercontent.com/101345032/174309322-195b504d-791c-4087-a17c-5b908e4f1899.PNG)
+![](https://user-images.githubusercontent.com/101345032/174316746-3ac54256-8f4f-4bd0-8ba3-349c831bd73e.PNG)
 ![](https://user-images.githubusercontent.com/101345032/174302160-442056b4-ab61-448b-bceb-6adfe4ebdf62.PNG)
 
 다음은 모수 b값의 유전 알고리즘 결과와 엑셀의 b와 손실함수의 그래프이다.
-![](https://user-images.githubusercontent.com/101345032/174310003-5099cbcd-226f-4c28-94fe-29d65abd6b3f.PNG)
-![](https://user-images.githubusercontent.com/101345032/174310011-baa76284-0c2e-4fde-b01d-9c5b78493d48.PNG)
+![](https://user-images.githubusercontent.com/101345032/174316763-da96a9ae-ce22-4d1a-ac0e-5f3be975c45a.PNG)
 ![](https://user-images.githubusercontent.com/101345032/174310020-ecc69936-2086-45e2-9170-e5e33cdc473f.PNG)
 
 **엑셀의 손실함수 그래프의 최소값과 유전알고리즘의 결과값이 유사함을 알수 있다.**
