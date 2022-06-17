@@ -24,13 +24,10 @@ public class geneticalgorithm {
             }
             System.out.println(i+"번째 트라이");
             selected = select(candidates,p);//선택연산후 각 후보가 선택된 횟수의 집합(1:2번,2:4번,...)
-            //System.out.println("selected 성공");
+       
             candidates = crossover(candidates,selected,p);
-            //System.out.println("crossover 성공");
+         
             candidates = mutate(candidates);
-            //System.out.println("mutate 성공");
-            System.out.println(Arrays.toString(candidates));
-
          }
         //System.out.println(fx);
         return x;
